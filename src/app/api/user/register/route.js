@@ -40,7 +40,8 @@ export async function POST(req) {
                 email: true,
                 password: true,
                 role: true,
-                registeredAt: true
+                registeredAt: true,
+                updatedAt: true
             }
         });
 
